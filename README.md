@@ -1,6 +1,6 @@
 # User Management Application
 
-This project is a React Vite application designed to add, edit, display, and search users. It includes form validation, duplicate email prevention feature. The application is built without a backend database, and it leverages **React.js** and **MUI** for the UI.
+This project is a React Vite application designed to add, edit, display, and search users. It includes form validation, duplicate email prevention, and an autocomplete search feature. The application is built without a backend database, and it leverages **React.js** and **MUI** for the UI.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ The purpose of this application is to provide a simple user management system wh
 
 - Add new users.
 - Edit existing users.
-- Search users by email, role, department, name etc.
+- Search users by email with autocomplete functionality.
 
 ## Features
 
@@ -30,6 +30,7 @@ The purpose of this application is to provide a simple user management system wh
   - Ensures the phone number is valid (10 digits).
   - Prevents adding users with duplicate email IDs.
 - **Display Users**: The list of users is displayed on the same page with the option to edit them.
+- **Autocomplete Search**: Search users by email and display their full name in the search results.
 
 ## Requirements
 
@@ -86,6 +87,7 @@ The purpose of this application is to provide a simple user management system wh
   - Phone number must be 10 digits.
   - No duplicate emails are allowed.
 
+- **Autocomplete Search** is implemented to search for users by their email address, and the corresponding full name is displayed.
 - All forms and UI components are styled using **MUI**.
 
 ## File Structure
